@@ -29,7 +29,7 @@ SquareChallenge - определение площади заказа по фот
 ```sh
 $ sudo apt install python3-opencv
 ```
-3. Создаем на основе ``algorithms/test.py`` свой вариант 
+3. Создаем на основе ``algorithms/hello.py`` свой вариант 
 
 4. Запуск:
 
