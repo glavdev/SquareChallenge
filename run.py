@@ -9,7 +9,7 @@
 # Тестируемые фотографии
 # "фото.jpg": площадь в пикселях
 images = {
-    "image01.jpg": 100,
+    "image01.jpg": 662697,
     "image02.jpg": 107,
     "image03.jpg": 93,
     "image04.jpg": 200,
@@ -21,7 +21,6 @@ images = {
 import sys
 import importlib
 from datetime import datetime
-
 
 try:
     algStr = sys.argv[1]
@@ -78,3 +77,4 @@ for image in images:
 totaltime = datetime.now() - startTime
 
 print("\nИтоговый счет: {} из {}. Время: {}".format(okCount, testsCount, totaltime))
+

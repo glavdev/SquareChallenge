@@ -9,8 +9,7 @@ SquareChallenge - определение площади заказа по фот
 
 Подборка фотографий находится в каталоге **imgs**.
 
-Выигрывает функция, которая даст наибольшее число верных
-ответов. 
+Выигрывает функция, которая даст наибольшее число верных ответов. 
 
 Результат подсчитывается скриптом ``run.py``.
 
@@ -32,26 +31,29 @@ $ sudo apt install python3-opencv
 
 3. Запуск:
 
-Все фото функцией square из файла test.py
+Все фото функцией square из файла algorithms/hello.py
 ```sh
-$ python3 run.py test
+$ python3 run.py hello
 ```
 
 Одно фото:
 ```sh
-$ python3 run.py test image01.jpg
+$ python3 run.py hello image01.jpg
 ```
 
 ## Для старта
 
-Быстрое введение в Python:
+Быстрое введение в Python:\
 https://www.raspberrypi.org/documentation/usage/python/
 
-Введение в работу с изображениями с помощью OpenCV:
+Введение в работу с изображениями с помощью OpenCV:\
 https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_image_display/py_image_display.html
 
-Шпаргалка по opencv:
+Шпаргалка по opencv:\
 https://tproger.ru/translations/opencv-python-guide/#antialiasing
+https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_contours/py_contours_begin/py_contours_begin.html
+https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_contours/py_contour_features/py_contour_features.html
 
-Еще статья:
+Еще статьи:\
 https://towardsdatascience.com/object-detection-via-color-based-image-segmentation-using-python-e9b7c72f0e11
+https://robotclass.ru/tutorials/opencv-python-find-contours/
